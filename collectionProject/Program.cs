@@ -54,7 +54,8 @@ namespace collectionProject
             Dictionary<int, Employee> Employees = new Dictionary<int, Employee>();
             Employees.Add(E1.EmployeeId, E1);
             Employees.Add(E2.EmployeeId, E2);
-            Employees.Add(E3.EmployeeId, E3);
+            Employees.Add(E3.EmployeeId, E3); 
+
             Employees.Add(E4.EmployeeId, E4);
             Employees.Add(E5.EmployeeId, E5);
             Console.WriteLine("The Employee Details are:");
